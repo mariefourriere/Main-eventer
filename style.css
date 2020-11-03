@@ -4,14 +4,12 @@
     src: url('/fonts/Comfortaa-Regular.ttf');
 }
 
-
 main {
     width: 50%;
     margin: auto;
     display: flex;
     flex-direction: column;
     font-family: 'Cinzel-Regular';
-   
 }
 
 h1 {
@@ -57,4 +55,3 @@ p{
 
 .par1{
     margin-top: 50px;
-}
