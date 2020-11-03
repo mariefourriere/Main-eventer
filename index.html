@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Eventer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Main Eventer</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -15,40 +15,59 @@
         </nav>
 
     </header>
-  
-  <main>
-    
-    <section>
-        <h1>Who we are</h1>
 
-    </section>
+    <main>
 
-    <section>
-        <h1>Our team...</h1>
+        <section>
+            <h1>Who we are</h1>
 
+        </section>
 
-    </section>
+        <section>
+            <h1>Our team...</h1>
 
 
-    <section>
-
-        <h1>Our events</h1>
-
-    </section>
+        </section>
 
 
-    <section>
-        <h1>Need an event</h1>
-        <form>
+        <section>
 
-        </form>
+            <h1>Our events</h1>
 
-    </section>
-  </main>
+        </section>
+
+
+        <section class="formulaire">
+        <h1>Need an events ?</h1>
+            <form class="formular">
+                <div class="formular-Allname">
+                    <div class="formular-name">
+                        <label for="name">Name * </label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="formular-lastname">
+                        <label for="Lastname">Lastname * </label>
+                        <input type="text" id="Lastname" name="Lastname" required>
+                    </div>
+                </div>
+                <div class="formular-email">
+                    <label for="email">E-mail * </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="formular-description">
+                    <label for="formulardescription"> Description</label>
+                    <textarea type="text" id="formulardescription" name="formulardescription" required> </textarea>
+                </div>
+                <button class="button" type ="button"><h2> SEND </h2></button>
+            </form>
+
+        </section>
+    </main>
     <footer>
         <h3>MAIN EVENTER</h3>
     </footer>
 
 
 </body>
+
 </html>

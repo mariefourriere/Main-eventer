@@ -1,0 +1,71 @@
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.formulaire h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 300px;
+    border-bottom:  solid #AF0105;
+    margin: auto;
+}
+
+.formular-Allname, .formular-email, .formular-description, button{
+    margin-top: 4%;
+}
+
+.formular-Allname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formular-name,.formular-lastname,.formular-email{
+    max-width: 30%;   
+}
+
+.formular-description{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px solid #AF0105 ;
+}
+textarea{
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 70%;
+    min-width: 70%;
+    border:  1px solid #AF0105 ;
+    border-radius: 15px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    color: #AF0105 ;
+    background-color: white;
+    border:1px solid #AF0105 ;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+button:hover{
+    color: white ;
+    background-color: #AF0105;
+    
+}
+
