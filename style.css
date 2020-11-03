@@ -17,6 +17,7 @@ main {
 h1 {
     width: max-content;
     font-size: 2.2em;
+    font-weight: 400;
     border-bottom: 4px solid #AF0102;
     padding-bottom: 10px;
 }
