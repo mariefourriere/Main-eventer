@@ -90,8 +90,12 @@ main {
 }
 
 
+<<<<<<< HEAD
 .about-par1{
     
+=======
+.about-par1 {
+
     margin-left: 30px;
     margin-top: 40px;;
 }
@@ -317,8 +321,11 @@ button{
     border-radius: 13px;
     margin-left: auto;
     margin-right: auto; 
+<<<<<<< HEAD
     font-size: 30px;
     
+=======
+>>>>>>> 43f03865538ba281318c03b3bbaaac84fea61f93
 }
 
 button:hover{
