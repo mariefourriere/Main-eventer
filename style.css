@@ -171,29 +171,30 @@ main {
 
 /*-------------------------------*/
 /*----OUR EVENTS----*/
+.evenment{
+    margin-bottom: 200px;
+    margin-top: 200px ;
+    
+}
 
 .events {
     display: flex;
     box-sizing: border-box;
     margin-bottom: 200px;
     font-size: 26px;
-
-
+    justify-content: center;
 }
 
 .events2 {
     display: flex;
     box-sizing: border-box;
-
-
-
-
+    justify-content: center;
 }
 
 .schedule {
     flex-wrap: wrap;
     margin-right: 50px;
-
+    width: 250px;
 }
 
 .schedule_content {
@@ -226,6 +227,7 @@ h1 {
     margin: 0;
 }
 
+
 h2 {
     color: rgb(39, 143, 240);
     margin-top: 0;
@@ -244,10 +246,9 @@ h2 {
 
 }
 
-.underline {
+.underline{
+
     text-align: center;
-    width: 50%;
-    border-bottom: 4px solid;
     border-color: rgb(138, 15, 15);
 
 }
