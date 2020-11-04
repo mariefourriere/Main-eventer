@@ -1,4 +1,3 @@
-
 /*-------------------------------*/
 /*----TYPO----*/
 
@@ -12,6 +11,7 @@
 body{
     font-family: 'Cinzel-Regular';
     margin: 0;
+    min-height: 100vh;
 }
 
 /*-------------------------------*/
@@ -167,6 +167,99 @@ main {
 /*-------------------------------*/
 /*----OUR EVENTS----*/
 
+.events{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    font-size: 26px;
+    
+    
+}
+
+.events2{
+    display: flex;
+    box-sizing: border-box;
+    
+    
+
+    
+}
+.schedule{
+    flex-wrap: wrap;
+    margin-right: 50px;
+    
+}
+
+ .schedule_content{
+    
+    box-sizing: border-box ;
+    border-radius: 1px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .3); 
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0;
+    
+   
+     
+}
+
+          
+
+.title{
+    box-sizing: border-box;
+    background-color: rgb(155, 16, 16);
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+h1{
+    margin: 0;
+}
+h2{
+    color: rgb(39, 143, 240);
+    margin-top: 0;
+    
+}
+.img{
+   
+    margin-right: 100px;
+
+}
+.img2{
+    
+    margin-left: 100px ;
+
+}
+.underline{
+    text-align: center;
+    width : 50%;
+    border-bottom: 4px solid;
+    border-color: rgb(138, 15, 15);
+    
+}
+/*reponsive*/
+/*
+@media screen and (max-width: 500px){
+    .events{
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-bottom: 2px solid#ccc;
+        border-radius: 0;
+        
+    }
+    .events2{
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-bottom: 2px solid#ccc;
+        border-radius: 0;
+    }
+*/
 /*-------------------------------*/
 /*----FORMULAIRE----*/
 .formulaire{
@@ -239,6 +332,7 @@ a:hover{
 }
 
 button a {
+    
     text-decoration: none;
     width: 120px;
 }
