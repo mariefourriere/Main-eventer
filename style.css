@@ -345,11 +345,11 @@ button:hover {
 
 }
 
-a:link {
+button a:link {
     color: #AF0105;
 }
 
-a:hover {
+button a:hover {
     color: #fff;
 }
 
