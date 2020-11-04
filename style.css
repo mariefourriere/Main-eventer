@@ -3,12 +3,12 @@
 
 
 @font-face {
-    font-family: 'Cinzel-Regular' ;
+    font-family: 'Cinzel-Regular';
     src: url('/fonts/Cinzel-Regular.ttf');
     src: url('/fonts/Comfortaa-Regular.ttf');
 }
 
-body{
+body {
     font-family: 'Cinzel-Regular';
     margin: 0;
     min-height: 100vh;
@@ -29,6 +29,7 @@ body{
     background-size: cover;
     height: 485px;
 }
+
 .transparent {
     background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
@@ -66,7 +67,7 @@ main {
     margin: auto;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 /*-------------------------------*/
@@ -77,12 +78,12 @@ main {
     position: relative;
 }
 
-.bestpeople{
+.bestpeople {
     background-color: #AF0102;
-    width:20%;
+    width: 20%;
     display: inline-block;
     position: absolute;
-    top:50px;
+    top: 50px;
     left: -70px;
     color: white;
     padding: 5px;
@@ -90,13 +91,13 @@ main {
 }
 
 
-.about-par1{
-    
+.about-par1 {
     margin-left: 30px;
-    margin-top: 40px;;
+    margin-top: 40px;
+    ;
 }
 
-.par1{
+.par1 {
     margin-top: 90px;
 }
 
@@ -106,6 +107,7 @@ main {
 .ourTeam {
     flex-direction: column;
 }
+
 .ourTeam h1 {
     align-self: center;
     font-size: 4em;
@@ -145,10 +147,14 @@ main {
     padding-left: 7px;
 }
 
-.CEO, .COO, .CTO, .CFO {
+.CEO,
+.COO,
+.CTO,
+.CFO {
     width: 50%;
     /* height: 100px; */
     box-sizing: border-box;
+    /* flex-wrap: wrap; */
     padding: 20px;
     justify-content: space-between;
     align-items: center;
@@ -159,6 +165,7 @@ main {
     justify-content: center;
     margin: auto 10px;
 }
+
 .team-description p {
     font-size: 0.9em;
     color: #bbb;
@@ -166,81 +173,88 @@ main {
 
 /*-------------------------------*/
 /*----OUR EVENTS----*/
+.evenment{
+    margin-bottom: 200px;
+    margin-top: 200px ;
+    
+}
 
-.events{
+.events {
     display: flex;
     box-sizing: border-box;
     margin-bottom: 200px;
     font-size: 26px;
-    
-    
+    justify-content: center;
 }
 
-.events2{
+.events2 {
     display: flex;
     box-sizing: border-box;
-    
-    
-
-    
+    justify-content: center;
 }
-.schedule{
+
+.schedule {
     flex-wrap: wrap;
     margin-right: 50px;
-    
+    width: 250px;
 }
 
- .schedule_content{
-    
-    box-sizing: border-box ;
+.schedule_content {
+
+    box-sizing: border-box;
     border-radius: 1px;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, .3); 
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .3);
     padding: 20px;
     text-align: center;
     font-size: 14px;
     padding-top: 0;
-    
-   
-     
+
+
+
 }
 
-          
 
-.title{
+
+.title {
     box-sizing: border-box;
     background-color: rgb(155, 16, 16);
     color: white;
     text-align: center;
-    
-    
-    
+
+
+
 }
 
-h1{
+h1 {
     margin: 0;
 }
-h2{
+
+
+h2 {
     color: rgb(39, 143, 240);
     margin-top: 0;
-    
+
 }
-.img{
-   
+
+.img {
+
     margin-right: 100px;
 
 }
-.img2{
-    
-    margin-left: 100px ;
+
+.img2 {
+
+    margin-left: 100px;
 
 }
+
 .underline{
+
     text-align: center;
-    width : 50%;
-    border-bottom: 4px solid;
     border-color: rgb(138, 15, 15);
-    
+
 }
+
 /*reponsive*/
 /*
 @media screen and (max-width: 500px){
@@ -262,10 +276,10 @@ h2{
 */
 /*-------------------------------*/
 /*----FORMULAIRE----*/
-.formulaire{
+.formulaire {
     display: flex;
     flex-direction: column;
-    margin: auto; 
+    margin: auto;
     margin-bottom: 7%;
 }
 
@@ -273,42 +287,49 @@ h2{
     display: flex;
     justify-content: center;
     font-weight: 300px;
-    border-bottom:  solid #AF0105;
+    border-bottom: solid #AF0105;
     margin: auto;
 }
 
-.formular-Allname, .formular-email, .formular-description, button{
+.formular-Allname,
+.formular-email,
+.formular-description,
+button {
     margin-top: 4%;
 }
 
-.formular-Allname{
+.formular-Allname {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.formular-name,.formular-lastname,.formular-email{
-    max-width: 30%;   
+.formular-name,
+.formular-lastname,
+.formular-email {
+    max-width: 30%;
 }
 
-.formular-description{
+.formular-description {
     display: flex;
     flex-direction: column;
 }
 
-input{
+input {
     border-radius: 15px;
-    border: 1px solid #AF0105 ;
+    border: 1px solid #AF0105;
 }
-textarea{
+
+textarea {
     max-height: 100px;
     min-height: 100px;
     max-width: 70%;
     min-width: 70%;
-    border:  1px solid #AF0105 ;
+    border: 1px solid #AF0105;
     border-radius: 15px;
 }
-button{
+
+button {
     display: flex;
     justify-content: center;
     color: #AF0105;
@@ -317,19 +338,19 @@ button{
     border-radius: 13px;
     margin-left: auto;
     margin-right: auto; 
-    
-    
 }
 
-button:hover{
-    color: white ;
+button:hover {
+    color: white;
     background-color: #AF0105;
-    
+
 }
-a:link {
-    color: #AF0105 ;
+
+button a:link {
+    color: #AF0105;
 }
-a:hover{
+
+button a:hover {
     color: #fff;
 }
 
@@ -355,7 +376,7 @@ h1 {
 
 
 
-p{
+p {
     color: rgb(156, 155, 155);
     font-size: 1em;
     font-weight: 200;
@@ -365,7 +386,7 @@ p{
 /*-------------------------------*/
 /*----FOOTER----*/
 
-footer{
+footer {
     background-image: url(img/swirl_pattern.png);
     flex-wrap: wrap;
     justify-content: center;
@@ -374,17 +395,17 @@ footer{
     padding: 50px 0px 50px 0px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-size: 2em;
     margin: 0;
-  }
-
-i{
-    margin: 30px;
-        
 }
 
-i:hover{
-   background-color: lightgrey;
+i {
+    margin: 30px;
+
+}
+
+i:hover {
+    background-color: lightgrey;
 }
