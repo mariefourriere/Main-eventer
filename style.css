@@ -1,79 +1,6 @@
-.formulaire{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    
-}
 
-.formulaire h1 {
-    display: flex;
-    justify-content: center;
-    font-weight: 300px;
-    border-bottom:  solid #AF0105;
-    margin: auto;
-}
-
-.formular-Allname, .formular-email, .formular-description, button{
-    margin-top: 4%;
-}
-
-.formular-Allname{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.formular-name,.formular-lastname,.formular-email{
-    max-width: 30%;   
-}
-
-.formular-description{
-    display: flex;
-    flex-direction: column;
-}
-
-input{
-    border-radius: 15px;
-    border: 1px solid #AF0105 ;
-}
-textarea{
-    max-height: 100px;
-    min-height: 100px;
-    max-width: 70%;
-    min-width: 70%;
-    border:  1px solid #AF0105 ;
-    border-radius: 15px;
-}
-button{
-    display: flex;
-    justify-content: center;
-    color: #AF0105;
-    background-color: white;
-    border:1px solid #AF0105;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-bottom: 7%;
-  
-   
-    
-}
-
-button:hover{
-    color: white ;
-    background-color: #AF0105;
-}
-a:link {
-    color: #AF0105 ;
-}
-a:hover{
-    color: #fff;
-}
-
-button a {
-    text-decoration: none;
-    width: 120px;
-}
+/*-------------------------------*/
+/*----TYPO----*/
 
 
 @font-face {
@@ -82,32 +9,20 @@ button a {
     src: url('/fonts/Comfortaa-Regular.ttf');
 }
 
-
 body{
     font-family: 'Cinzel-Regular';
     margin: 0;
 }
 
-main {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-h1 {
-    width: max-content;
-    font-size: 2.2em;
-    font-weight: 400;
-    border-bottom: 4px solid #AF0102;
-    padding-bottom: 10px;
-}
-
+/*-------------------------------*/
+/*----HELPERS----*/
 
 .flex {
     display: flex;
 }
+
+/*-------------------------------*/
+/*----HEADER----*/
 
 .header {
     background-image: url(img/header_Background.jpg);
@@ -142,6 +57,49 @@ nav a:hover {
     align-items: center;
     height: 89%;
 }
+
+/*-------------------------------*/
+/*----MAIN----*/
+
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*-------------------------------*/
+/*----WHO WE ARE----*/
+
+.about {
+    margin-top: 20%;
+    position: relative;
+}
+
+.bestpeople{
+    background-color: #AF0102;
+    width:20%;
+    display: inline-block;
+    position: absolute;
+    top:50px;
+    left: -70px;
+    color: white;
+    padding: 5px;
+    border: 3px solid white;
+}
+
+.about-par1{
+    margin-left: 30px;
+    margin-top: 40px;;
+}
+
+.par1{
+    margin-top: 90px;
+}
+
+/*-------------------------------*/
+/*----OUR TEAM----*/
 
 .ourTeam {
     flex-direction: column;
@@ -204,6 +162,97 @@ nav a:hover {
     color: #bbb;
 }
 
+/*-------------------------------*/
+/*----OUR EVENTS----*/
+
+/*-------------------------------*/
+/*----FORMULAIRE----*/
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    margin-bottom: 7%;
+}
+
+.formulaire h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 300px;
+    border-bottom:  solid #AF0105;
+    margin: auto;
+}
+
+.formular-Allname, .formular-email, .formular-description, button{
+    margin-top: 4%;
+}
+
+.formular-Allname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formular-name,.formular-lastname,.formular-email{
+    max-width: 30%;   
+}
+
+.formular-description{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px solid #AF0105 ;
+}
+textarea{
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 70%;
+    min-width: 70%;
+    border:  1px solid #AF0105 ;
+    border-radius: 15px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    color: #AF0105;
+    background-color: white;
+    border:1px solid #AF0105;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+button:hover{
+    color: white ;
+    background-color: #AF0105;
+    
+}
+a:link {
+    color: #AF0105 ;
+}
+a:hover{
+    color: #fff;
+}
+
+button a {
+    text-decoration: none;
+    width: 120px;
+}
+
+
+h1 {
+    width: max-content;
+    font-size: 2.2em;
+    font-weight: 400;
+    border-bottom: 4px solid #AF0102;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 p{
     color: rgb(156, 155, 155);
@@ -212,35 +261,11 @@ p{
 }
 
 
-.about {
-    margin-top: 20%;
-    
-}
-
-.bestpeople{
-    background-color: #AF0102;
-    width:15%;
-    display: inline-block;
-    position: absolute;
-    top:200px;
-    left: 100px;
-    color: white;
-    padding: 5px;
-    border: 3px solid white;
-   
-}
-
-.about-par1{
-    margin-left: 30px;
-    margin-top: 40px;;
-}
-
-.par1{
-    margin-top: 90px;
-}
+/*-------------------------------*/
+/*----FOOTER----*/
 
 footer{
-    background-image: url(/img/swirl_pattern.png);
+    background-image: url(img/swirl_pattern.png);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
