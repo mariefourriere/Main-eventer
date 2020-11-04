@@ -153,6 +153,7 @@ main {
     width: 50%;
     /* height: 100px; */
     box-sizing: border-box;
+    /* flex-wrap: wrap; */
     padding: 20px;
     justify-content: space-between;
     align-items: center;
