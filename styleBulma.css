@@ -1,0 +1,103 @@
+header {
+    background-image: url(img/header_Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(img/LOGO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.img-beer {
+    position: relative;
+}
+
+.best-people {
+    position: absolute;
+    width: 170px;
+    top: 30px;
+    left: -80px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(189, 0, 0);
+    border: 3px solid #fff;
+    border-radius: 0;
+    line-height: 1.2;
+}
+
+.our-team img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.our-team h2 {
+    background-color: rgb(189, 0, 0);
+    color: #fff;
+    display: inline-block;
+    padding: 2px 20px 2px 5px;
+}
+
+.msg {
+    border-radius: 25px;
+}
+
+.control input,
+.control textarea {
+    border: 1px solid rgb(189, 0, 0);
+}
+
+footer {
+    background-image: url(img/swirl_pattern.png);
+}
+
+h1 {
+    display: inline-block;
+}
+
+h1:after {
+    display: block;
+    content: "";
+    height: 4px;
+    background-color: rgb(189, 0, 0);
+}
+
+.our-events .hero {
+    background-color: rgb(189, 0, 0);
+}
+
+.hiddenmenu {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-end a:hover {
+    background: none;
+    color: #fff;
+    border-bottom: 3px solid rgb(189, 0, 0);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .transparent {
+        background-color: rgba(0, 0, 0, 0.8);
+        background-size: 10%;
+        background-position: 10% 10%;
+    }
+    .navbar-end a:hover {
+        background: none;
+        color: #fff;
+        border-bottom: none;
+    }
+    .best-people {
+        top: 80%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .schedule {
+        margin-top: 20px;
+    }
+}
