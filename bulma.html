@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +20,12 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+/*       .transparent {
+              background-color: rgba(0, 0, 0, 0.7);
+              height: 100%;
+              width: 100%;
+              position: relative;
+          } */
         @media only screen and (max-width: 768px) {
             .transparent {
             background-color: rgba(0, 0, 0, 0.8);
@@ -84,27 +91,47 @@
         .our-events .hero {
             background-color: rgb(189, 0, 0);
         }
+       .hiddenmenu{
+              background-color: rgba(0,0,0,0);
+          }
+        
+                   
+          a:hover{
+              background-color: rgba(0, 0, 0, 0);
+          }
     </style>
 </head>
 
 <body>
     <header class="hero is-large">
-        <div class="transparent">
-            <div class="hero-body pt-0 mr-6">
-                <div class="container mr-6">
-                    <nav class="navbar" role="navigation" aria-label="main navigation">
-                        <div class="navbar-end">
-                            <div class="navbar-item mr-6">
-                                <a href="#" class="has-text-white is-size-4 px-4">About</a>
-                                <a href="#" class="has-text-white is-size-4 px-4">Team</a>
-                                <a href="#" class="has-text-white is-size-4 px-4">Events</a>
-                                <a href="#" class="has-text-white is-size-4 px-4">Contact</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <div class="hero-body pt-0 mr-6 transparent">
+
+
+                <nav class="navbar is-primary">
+                  <div class="container">
+                      <div class="navbar-brand navtoggle">
+                          <div id="navbar-burger-id" class="navbar-burger" data-target="navMenu" aria-level="menu">
+                              <span aria-hidden="true"></span>
+                              <span aria-hidden="true"></span>
+                              <span aria-hidden="true"></span>
+                          </div>
+
+                          
+                      </div>
+
+                      <div class="navbar-menu has-text-weight-bold hiddenmenu" id="navMenu">
+                          <div class="navbar-end">
+                              <a href="#" class="navbar-item has-text-danger">About</a>
+                              <a href="#" class="navbar-item has-text-danger">Team</a>
+                              <a href="#" class="navbar-item has-text-danger">Events</a>
+                              <a href="#" class="navbar-item has-text-danger">Contact</a>
+                          </div>
+                      </div>
+
+
+
+
+                </nav>
     </header>
     <!-- <div class="columns is-centered"> -->
     <!-- <div class="column is-centered"> -->
@@ -343,6 +370,38 @@
                 </div>
             </div>
     </footer>
+          <script type="text/javascript">
+          document.addEventListener('DOMContentLoaded', () => {
+
+              // Get all "navbar-burger" elements
+              const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+              // Check if there are any navbar burgers
+              if ($navbarBurgers.length > 0) {
+
+                  // Add a click event on each of them
+                  $navbarBurgers.forEach(el => {
+                      el.addEventListener('click', () => {
+
+                          // Get the target from the "data-target" attribute
+                          const target = el.dataset.target;
+                          const $target = document.getElementById(target);
+
+                          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                          el.classList.toggle('is-active');
+                          $target.classList.toggle('is-active');
+
+                      });
+                  });
+              }
+
+          });
+
+       
+      </script>
 </body>
 
 </html>
+ 
+      
+  
