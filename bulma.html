@@ -1,56 +1,97 @@
-  <!DOCTYPE html>
-  <html lang="en">
 
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-      <title>Introduction à Bulma</title>
-    
-      <style>
-          header {
-              background-image: url(img/header_Background.jpg);
-              background-size: cover;
-              background-position: center;
-          }
+<!DOCTYPE html>
+<html lang="en">
 
-          .transparent {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Introduction à Bulma</title>
+    <style>
+        header {
+            background-image: url(img/header_Background.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .transparent {
+            background-color: rgba(0, 0, 0, 0.8);
+            background-image: url(img/LOGO.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+/*       .transparent {
               background-color: rgba(0, 0, 0, 0.7);
               height: 100%;
               width: 100%;
               position: relative;
-          }
-
-          .our-team img {
-              border-radius: 50%;
-              width: 100px;
-          }
-
-          .msg {
-              border-radius: 25px;
-          }
-
-          .control input,
-          .control textarea {
-              border: 1px solid rgb(189, 0, 0);
-          }
-
-          footer {
-              background-image: url(img/swirl_pattern.png);
-          }
-
-          h1 {
-              display: inline-block;
-          }
-
-          h1:after {
-              display: block;
-              content: "";
-              height: 4px;
-              background-color: rgb(189, 0, 0);
-          }
-          .hiddenmenu{
+          } */
+        @media only screen and (max-width: 768px) {
+            .transparent {
+            background-color: rgba(0, 0, 0, 0.8);
+            background-image: none;
+            }
+        }
+        .img-beer {
+            position: relative;
+        }
+        .best-people {
+            position: absolute;
+            width: 170px;
+            top: 30px;
+            left: -80px;
+            padding: 5px;
+            color: #fff;
+            background-color: rgb(189, 0, 0);
+            border: 3px solid #fff;
+            border-radius: 0;
+            line-height: 1.2;
+        }
+        @media only screen and (max-width: 768px) {
+            .best-people {
+                top: 80%;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+        .our-team img {
+            border-radius: 50%;
+            width: 100px;
+        }
+        .our-team h2 {
+            background-color: rgb(189, 0, 0);
+            color: #fff;
+            display: inline-block;
+            padding: 2px 20px 2px 5px;
+        }
+        .msg {
+            border-radius: 25px;
+        }
+        @media only screen and (max-width: 768px) {
+            .schedule {
+                margin-top: 20px;
+            }
+        }
+        .control input, .control textarea {
+            border: 1px solid rgb(189, 0, 0);
+        }
+        footer {
+            background-image: url(img/swirl_pattern.png);
+        }
+        h1 {
+            display: inline-block;
+        }
+        h1:after {
+            display: block;
+            content :"";
+            height: 4px;
+            background-color: rgb(189, 0, 0);
+        }
+        .our-events .hero {
+            background-color: rgb(189, 0, 0);
+        }
+       .hiddenmenu{
               background-color: rgba(0,0,0,0);
           }
         
@@ -58,13 +99,12 @@
           a:hover{
               background-color: rgba(0, 0, 0, 0);
           }
+    </style>
+</head>
 
-      </style>
-  </head>
-
-  <body>
-      <header class="hero is-large ">
-          <div class="hero-body pt-0 mr-6 transparent">
+<body>
+    <header class="hero is-large">
+        <div class="hero-body pt-0 mr-6 transparent">
 
 
                 <nav class="navbar is-primary">
@@ -92,243 +132,245 @@
 
 
                 </nav>
+    </header>
+    <!-- <div class="columns is-centered"> -->
+    <!-- <div class="column is-centered"> -->
+    <section class="about section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="img-beer column is-one-third">
+                    <img src="img/imageBiere28.png" alt="img beer">
+                    <p class="best-people notification">
+                        Best People agency in Belgium
+                    </p>
+                </div>
+                <div class="column is-one-third">
+                    <h1 class="subtitle is-1 mb-6">
+                        Who we are...
+                    </h1>
+                    <p class="mt-6">
+                        Look, just because I don't be givin' no man a foot massage don't make it right gor
+                        Marsellus to
+                        throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks.
+                        Motherfucker di that shit to me, he better paralyze my ass, 'cause I'll kill the
+                        motherfucker,
+                        know what I'm sayin'?
+                    </p>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-two-thirds">
+                    <p>
+                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                        with my
+                        name printed on it? Do you see a little Asian child with a blank expression on his face
+                        sitting
+                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                        that's
+                        what you see at a toy store. And you must think you're in a toy store, because you're
+                        here
+                        shopping for an infant named Jeb.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         </header>
+    <section class="our-team section">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <h1 class="subtitle is-1 is-centered">Our Team...</h1>
+            </div>
+            <div class="columns is-centered">
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CEO.jpg" alt="CEO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CEO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/COO.jpg" alt="COO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>COO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="columns is-centered">
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CFO.jpg" alt="CFO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CFO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CTO.jpg" alt="CTO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CTO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
+    <section class="our-events section">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <div class="column is-two-thirds columns">
+                    <div class="column is-two-fifths">
+                        <img src="img/popImageClock.png" alt="pin-up">
+                    </div>
+                    <div class="column is-two-fifths">
+                        <h1 class="subtitle is-1 mb-6">Our Events...</h1>
+                    </div>
+                    <div class="column is-two-fifths">
+                        <img src="img/PopimageBeer.png" alt="pin-up">
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-two-thirds columns">
+                    <div class="schedule box content column is-one-quarter p-0 mb-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Salsa Course</h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Nov</p>
+                        <p class="has-text-centered">21TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Latino night</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                    <div class="schedule box content column is-one-quarter p-0 mb-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Christmas</h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Dec</p>
+                        <p class="has-text-centered">24TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Christmas for refugees</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                    <div class="schedule box content column is-one-quarter p-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Finance research</h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Jan</p>
+                        <p class="has-text-centered">5TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Financers Drink</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-      <div class="columns is-centered"> 
-      <div class="column is-centered">
-      <section class="about section">
-          <div class="container">
-              <div class="columns is-centered">
-                  <div class="column is-one-third">
-                      <img src="img/imageBiere28.png" alt="img beer">
-                  </div>
-                  <div class="column is-one-third">
-                      <h1 class="subtitle is-1 mb-6">
-                          Who we are...
-                      </h1>
-                      <p class="mt-6">
-                          Look, just because I don't be givin' no man a foot massage don't make it right gor
-                          Marsellus to
-                          throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks.
-                          Motherfucker di that shit to me, he better paralyze my ass, 'cause I'll kill the
-                          motherfucker,
-                          know what I'm sayin'?
-                      </p>
-                  </div>
-              </div>
-              <div class="columns is-centered">
-                  <div class="column is-two-thirds">
-                      <p>
-                          Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
-                          with my
-                          name printed on it? Do you see a little Asian child with a blank expression on his face
-                          sitting
-                          outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
-                          that's
-                          what you see at a toy store. And you must think you're in a toy store, because you're
-                          here
-                          shopping for an infant named Jeb.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <section class="our-team section">
-          <div class="container">
-              <h1 class="subtitle is-1 has-text-centered mb-6">Our Team...</h1>
-              <div class="columns is-centered">
-                  <article class="columns column is-one-third">
-                      <div class="column is-one-quarter">
-                          <img src="img/CEO.jpg" alt="CEO">
-                      </div>
-                      <div class="column is-three-quarters">
-                          <h2>CEO</h2>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                  </article>
-                  <article class="columns column is-one-third">
-                      <div class="column is-one-quarter">
-                          <img src="img/COO.jpg" alt="COO">
-                      </div>
-                      <div class="column is-three-quarters">
-                          <h2>COO</h2>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                  </article>
-              </div>
-              <div class="columns is-centered">
-                  <article class="columns column is-one-third">
-                      <div class="column is-one-quarter">
-                          <img src="img/CFO.jpg" alt="CFO">
-                      </div>
-                      <div class="column is-three-quarters">
-                          <h2>CFO</h2>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                  </article>
-                  <article class="columns column is-one-third">
-                      <div class="column is-one-quarter">
-                          <img src="img/CTO.jpg" alt="CTO">
-                      </div>
-                      <div class="column is-three-quarters">
-                          <h2>CTO</h2>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                  </article>
-              </div>
-          </div>
-      </section>
-
-      <section class="our-events section">
-          <div class="container">
-              <div class="columns is-centered mb-6">
-                  <div class="column is-two-thirds columns">
-                      <div class="column is-two-fifths">
-                          <img src="img/popImageClock.png" alt="pin-up">
-                      </div>
-                      <div class="column is-two-fifths">
-                          <h1 class="subtitle is-1 mb-6">Our Events...</h1>
-                      </div>
-                      <div class="column is-two-fifths">
-                          <img src="img/PopimageBeer.png" alt="pin-up">
-                      </div>
-                  </div>
-              </div>
-              <div class="columns is-centered">
-                  <div class="column is-two-thirds columns">
-                      <div class="box content column is-one-quarter mx-6">
-                          <div class="hero is-small">
-                              <h2 class="subtitle is-2 has-text-centered">Salsa Course</h2>
-                          </div>
-                          <p class="has-text-centered">Nov</p>
-                          <p class="has-text-centered">21TH</p>
-                          <h3 class="subtitle is-4 has-text-centered">Latino night</h3>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                      <div class="box content column is-one-quarter mx-6">
-                          <div class="hero is-small">
-                              <h2 class="subtitle is-2 has-text-centered">Christmas</h2>
-                          </div>
-                          <p class="has-text-centered">Dec</p>
-                          <p class="has-text-centered">24TH</p>
-                          <h3 class="subtitle is-4 has-text-centered">Christmas for refugees</h3>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                      <div class="box content column is-one-quarter mx-6">
-                          <div class="hero is-small">
-                              <h2 class="subtitle is-2 has-text-centered">Finance research</h2>
-                          </div>
-                          <p class="has-text-centered">Jan</p>
-                          <p class="has-text-centered">5TH</p>
-                          <h3 class="subtitle is-4 has-text-centered">Financers Drink</h3>
-                          <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                              incididunt ut
-                              labore et dolore
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <section class="section need-an-event">
-          <div class="container">
-              <h1 class="subtitle is-1 has-text-centered">Need an Event ?</h1>
-              <div class="columns is-centered">
-                  <form class="field column is-two-thirds">
-                      <div class="columns is-multiline">
-                          <div class="column is-half">
-                              <label for="name" class="label">Name *</label>
-                              <div class="control">
-                                  <input class="input is-rounded" id="name" type="text">
-                              </div>
-                          </div>
-                          <div class="column is-half">
-                              <label for="lastname" class="label">Lastname *</label>
-                              <div class="control">
-                                  <input class="input is-rounded" id="lastname" type="text">
-                              </div>
-                          </div>
-                          <div class="column is-half">
-                              <label for="mail" class="label">E-mail *</label>
-                              <div class="control">
-                                  <input class="input is-rounded" id="mail" type="email">
-                              </div>
-                          </div>
-                          <div class="column is-three-quarters">
-                              <label for="msg" class="label">Description</label>
-                              <div class="control">
-                                  <textarea id="msg" class="msg textarea is-rounded"></textarea>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="has-text-centered">
-                          <button type="submit" class="button is-rounded is-danger is-outlined">SEND</button>
-                      </div>
-                  </form>
-              </div>
-          </div>
-      </section>
-      <!-- </div> -->
-      <!-- </div> -->
-      <footer class="footer">
-          <div class="content has-text-centered mb-6">
-              <h1 class="is-1">MAIN EVENTERS</h1>
-          </div>
-          <div class="columns is-centered my-6">
-              <div class="column is-one-third columns is-centered">
-                  <div class="column is-one-quarter">
-                      <span class="icon">
-                          <i class="fab fa-linkedin-in fa-4x"></i>
-                      </span>
-                  </div>
-                  <div class="column is-one-quarter">
-                      <span class="icon">
-                          <i class="fab fa-instagram fa-4x"></i>
-                      </span>
-                  </div>
-                  <div class="column is-one-quarter">
-                      <span class="icon">
-                          <i class="fab fa-twitter fa-4x"></i>
-                      </span>
-                  </div>
-                  <div class="column is-one-quarter">
-                      <span class="icon">
-                          <i class="fab fa-facebook fa-4x"></i></i>
-                      </span>
-                  </div>
-              </div>
-      </footer>
-      <script type="text/javascript">
+    <section class="section need-an-event">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <h1 class="subtitle is-1 has-text-centered">Need an Event ?</h1>
+            </div>
+            <div class="columns is-centered">
+                <form class="field column is-two-thirds">
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <label for="name" class="label">Name *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="name" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <label for="lastname" class="label">Lastname *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="lastname" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <label for="mail" class="label">E-mail *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="mail" type="email">
+                            </div>
+                        </div>
+                        <div class="column is-three-quarters">
+                            <label for="msg" class="label">Description</label>
+                            <div class="control">
+                                <textarea id="msg" class="msg textarea is-rounded"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered">
+                    <button type="submit" class="button is-rounded is-danger is-outlined">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+    <!-- </div> -->
+    <footer class="footer">
+        <div class="content has-text-centered mb-6">
+            <h1 class="is-1">MAIN EVENTERS</h1>
+        </div>
+        <div class="columns is-centered my-6">
+            <div class="column is-mobile is-one-third columns is-centered">
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-linkedin-in fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-twitter fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-facebook fa-3x"></i></i>
+                    </span>
+                </div>
+            </div>
+    </footer>
+          <script type="text/javascript">
           document.addEventListener('DOMContentLoaded', () => {
 
               // Get all "navbar-burger" elements
@@ -357,6 +399,9 @@
 
        
       </script>
-  </body>
+</body>
 
-  </html>
+</html>
+ 
+      
+  
