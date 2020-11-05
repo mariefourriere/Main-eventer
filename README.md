@@ -21,7 +21,7 @@ Here is the [image](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/
 
 The code will be on [a gitHub repo](https://github.com/G-uillaume/Main-eventer).
 
-The final version is made with Bulma framework, this is the one you can see on the [github page](https://g-uillaume.github.io/Main-eventer){:target="_blank"}. But for the purpose of the exercise we made a responsive version in full CSS, which you can see on the github repository ([HTML](responsive.html), [CSS](responsive.css)).
+The final version is made with Bulma framework, this is the one you can see on the [github page](https://g-uillaume.github.io/Main-eventer:target="_blank"). But for the purpose of the exercise we made a responsive version in full CSS, which you can see on the github repository ([HTML](responsive.html), [CSS](responsive.css)).
 
 # Sources
 
