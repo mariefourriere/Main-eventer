@@ -13,9 +13,50 @@
             background-size: cover;
             background-position: center;
         }
+        .transparent {
+            background-color: rgba(0, 0, 0, 0.8);
+            background-image: url(img/LOGO.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        @media only screen and (max-width: 768px) {
+            .transparent {
+            background-color: rgba(0, 0, 0, 0.8);
+            background-image: none;
+            }
+        }
+        .img-beer {
+            position: relative;
+        }
+        .best-people {
+            position: absolute;
+            width: 170px;
+            top: 30px;
+            left: -80px;
+            padding: 5px;
+            color: #fff;
+            background-color: rgb(189, 0, 0);
+            border: 3px solid #fff;
+            border-radius: 0;
+            line-height: 1.2;
+        }
+        @media only screen and (max-width: 768px) {
+            .best-people {
+                top: 80%;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
         .our-team img {
             border-radius: 50%;
             width: 100px;
+        }
+        .our-team h2 {
+            background-color: rgb(189, 0, 0);
+            color: #fff;
+            display: inline-block;
+            padding: 2px 20px 2px 5px;
         }
         .msg {
             border-radius: 25px;
@@ -35,23 +76,28 @@
             height: 4px;
             background-color: rgb(189, 0, 0);
         }
+        .our-events .hero {
+            background-color: rgb(189, 0, 0);
+        }
     </style>
 </head>
 
 <body>
     <header class="hero is-large">
-        <div class="hero-body pt-0 mr-6">
-            <div class="container mr-6">
-                <nav class="navbar" role="navigation" aria-label="main navigation">
-                    <div class="navbar-end">
-                        <div class="navbar-item mr-6">
-                            <a href="#" class="px-4">About</a>
-                            <a href="#" class="px-4">Team</a>
-                            <a href="#" class="px-4">Events</a>
-                            <a href="#" class="px-4">Contact</a>
+        <div class="transparent">
+            <div class="hero-body pt-0 mr-6">
+                <div class="container mr-6">
+                    <nav class="navbar" role="navigation" aria-label="main navigation">
+                        <div class="navbar-end">
+                            <div class="navbar-item mr-6">
+                                <a href="#" class="has-text-white is-size-4 px-4">About</a>
+                                <a href="#" class="has-text-white is-size-4 px-4">Team</a>
+                                <a href="#" class="has-text-white is-size-4 px-4">Events</a>
+                                <a href="#" class="has-text-white is-size-4 px-4">Contact</a>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -60,8 +106,11 @@
     <section class="about section">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-one-third">
+                <div class="img-beer column is-one-third">
                     <img src="img/imageBiere28.png" alt="img beer">
+                    <p class="best-people notification">
+                        Best People agency in Belgium
+                    </p>
                 </div>
                 <div class="column is-one-third">
                     <h1 class="subtitle is-1 mb-6">
@@ -176,43 +225,42 @@
             </div>
             <div class="columns is-centered">
                 <div class="column is-two-thirds columns">
-                    <div class="box content column is-one-quarter mx-6">
+                    <div class="box content column is-one-quarter p-0 mb-0 mx-6">
                         <div class="hero is-small">
-                            <h2 class="subtitle is-2 has-text-centered">Salsa Course</h2>
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Salsa Course</h2>
                         </div>
-                        <p class="has-text-centered">Nov</p>
+                        <p class="has-text-centered has-text-primary mt-1">Nov</p>
                         <p class="has-text-centered">21TH</p>
                         <h3 class="subtitle is-4 has-text-centered">Latino night</h3>
-                        <p>
+                        <p class="p-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut
                             labore et dolore
                         </p>
                     </div>
-                    <div class="box content column is-one-quarter mx-6">
+                    <div class="box content column is-one-quarter p-0 mb-0 mx-6">
                         <div class="hero is-small">
-                            <h2 class="subtitle is-2 has-text-centered">Christmas</h2>
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Christmas</h2>
                         </div>
-                        <p class="has-text-centered">Dec</p>
+                        <p class="has-text-centered has-text-primary mt-1">Dec</p>
                         <p class="has-text-centered">24TH</p>
                         <h3 class="subtitle is-4 has-text-centered">Christmas for refugees</h3>
-                        <p>
+                        <p class="p-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut
                             labore et dolore
                         </p>
                     </div>
-                    <div class="box content column is-one-quarter mx-6">
+                    <div class="box content column is-one-quarter p-0 mx-6">
                         <div class="hero is-small">
-                            <h2 class="subtitle is-2 has-text-centered">Finance research</h2>
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Finance research</h2>
                         </div>
-                        <p class="has-text-centered">Jan</p>
+                        <p class="has-text-centered has-text-primary mt-1">Jan</p>
                         <p class="has-text-centered">5TH</p>
                         <h3 class="subtitle is-4 has-text-centered">Financers Drink</h3>
-                        <p>
+                        <p class="p-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut
-                            labore et dolore
+                            incididunt ut labore et dolore
                         </p>
                     </div>
                 </div>
@@ -267,25 +315,25 @@
             <h1 class="is-1">MAIN EVENTERS</h1>
         </div>
         <div class="columns is-centered my-6">
-            <div class="column is-one-third columns is-centered">
-                <div class="column is-one-quarter">
-                    <span class="icon">
-                        <i class="fab fa-linkedin-in fa-4x"></i>
+            <div class="column is-mobile is-one-third columns is-centered">
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-linkedin-in fa-3x"></i>
                     </span>
                 </div>
-                <div class="column is-one-quarter">
-                    <span class="icon">
-                        <i class="fab fa-instagram fa-4x"></i>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-instagram fa-3x"></i>
                     </span>
                 </div>
-                <div class="column is-one-quarter">
-                    <span class="icon">
-                        <i class="fab fa-twitter fa-4x"></i>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-twitter fa-3x"></i>
                     </span>
                 </div>
-                <div class="column is-one-quarter">
-                    <span class="icon">
-                        <i class="fab fa-facebook fa-4x"></i></i>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-facebook fa-3x"></i></i>
                     </span>
                 </div>
             </div>
