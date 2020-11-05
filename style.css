@@ -36,13 +36,13 @@ body {
     position: relative;
 }
 
-nav {
+/* nav {
     margin-right: 100px;
     justify-content: flex-end;
     align-items: center;
-}
+} */
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: #fff;
     padding: 20px 30px;
@@ -51,7 +51,7 @@ nav a {
 
 nav a:hover {
     color: #bd0000
-}
+} */
 
 .header-img {
     justify-content: center;
@@ -70,11 +70,11 @@ main {
 
 }
 
-header{
-margin-bottom: 70px;
+header {
+    margin-bottom: 70px;
 }
 
-section{
+section {
     margin-bottom: 70px;
     margin-top: 70px;
 }
@@ -93,29 +93,30 @@ h1 {
     margin-bottom: 40px;
 }
 
-h2{
+h2 {
     color: rgb(39, 143, 240);
     margin-top: 0;
-}   
+}
 
-h3{
+h3 {
     text-align: center;
     font-size: 1.2em;
     margin: 0;
     font-weight: 100;
     padding: 7px;
-   
-  }
 
-h4{
+}
+
+h4 {
     font-weight: 200;
     color: black;
 }
-p{
+
+p {
     color: rgb(156, 155, 155);
     font-size: 1em;
     font-weight: 200;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -142,17 +143,15 @@ p{
 
 .about-par1 {
     margin-left: 30px;
-
-    margin-top: 35px;;
+    margin-top: 35px;
 }
 
-.par1{
+.par1 {
     margin-top: 60px;
 }
 
-.par2{
+.par2 {
     padding-top: 20px;
-
 }
 
 /*-------------------------------*/
@@ -227,10 +226,9 @@ p{
 
 /*-------------------------------*/
 /*----OUR EVENTS----*/
-.evenment{
+.evenment {
     margin-bottom: 200px;
-    margin-top: 200px ;
-    
+    margin-top: 200px;
 }
 
 .events {
@@ -262,7 +260,6 @@ p{
     text-align: center;
     font-size: 14px;
     padding-top: 0;
-
 }
 
 
@@ -272,39 +269,32 @@ p{
     background-color: rgb(155, 16, 16);
     color: white;
     text-align: center;
-
-
-
 }
 
 
-.img{
-   margin-right: 100px;
-
-}
-.img2{
-    margin-left: 100px ;
-
+.img {
+    margin-right: 100px;
 }
 
-.underline{
+.img2 {
+    margin-left: 100px;
+}
 
+.underline {
     text-align: center;
     /* width : 50%; */
- 
 }
 
-.month{
-    color:  rgb(39, 143, 240);
+.month {
+    color: rgb(39, 143, 240);
     font-weight: bold;
     margin-top: 40px;
 }
 
-.day{
+.day {
     font-weight: bold;
-    color:black;
+    color: black;
     margin-top: 20px;
-    
 }
 
 /*reponsive*/
@@ -337,12 +327,15 @@ p{
 
 .formulaire h1 {
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;
 }
 
 
 
-.formular-Allname, .formular-email, .formular-description, button{
+.formular-Allname,
+.formular-email,
+.formular-description,
+button {
     margin-top: 4%;
 }
 
@@ -378,22 +371,22 @@ textarea {
 }
 
 
-button{
+/* button {
     display: flex;
     justify-content: center;
     color: #AF0105;
     background-color: white;
-    border:1px solid #AF0105;
+    border: 1px solid #AF0105;
     border-radius: 13px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 button a {
     font-weight: 100;
     font-size: 30px;
     text-decoration: none;
-    width: 120px;      
+    width: 120px;
 }
 
 button:hover {
@@ -402,12 +395,12 @@ button:hover {
 }
 
 button a:link {
-    color: #AF0105 ;
+    color: #AF0105;
 }
 
-button a:hover{
+button a:hover {
     color: #fff;
-}
+} */
 
 
 
