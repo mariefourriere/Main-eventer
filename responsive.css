@@ -240,17 +240,23 @@ p{
     margin-bottom: 80px;
     font-size: 26px;
     justify-content: center;
+
+  
 }
 
 .events2 {
     display: flex;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: center;    
+
+    
+            
+        
 }
 
 .schedule {
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .schedule_content {
@@ -262,29 +268,24 @@ p{
     text-align: center;
     font-size: 14px;
     padding-top: 0;
-
+    width: 250px;
+    height: 210px;
 }
-
-
 
 .title {
     box-sizing: border-box;
     background-color: rgb(155, 16, 16);
     color: white;
     text-align: center;
-
-
-
 }
 
 
 .img{
-   margin-right: 100px;
+   margin-right: 150px;
 
 }
 .img2{
-    margin-left: 100px ;
-
+    margin-left: 150px ;
 }
 
 .underline{
@@ -297,36 +298,16 @@ p{
 .month{
     color:  rgb(39, 143, 240);
     font-weight: bold;
-    margin-top: 40px;
+    padding-top: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .day{
     font-weight: bold;
-    color:black;
-    margin-top: 20px;
-    
+    color:black;   
 }
-
-/*reponsive*/
-/*
-@media screen and (max-width: 500px){
-    .events{
-        width: 100%;
-        margin: 0;
-        box-shadow: none;
-        border-bottom: 2px solid#ccc;
-        border-radius: 0;
-        
-    }
-    .events2{
-        width: 100%;
-        margin: 0;
-        box-shadow: none;
-        border-bottom: 2px solid#ccc;
-        border-radius: 0;
-    }
-*/
-/*-------------------------------*/
 /*----FORMULAIRE----*/
 .formulaire {
     display: flex;
@@ -434,7 +415,7 @@ i:hover {
 
 
 /*-------------------------------*/
-@media only screen and (max-width:620px){
+@media only screen and (max-width:700px){
     .header, .about, .flex, .events, .events2, .formulaire, .body, .biere, .peopleimg{
         display: flex;
         flex-wrap: wrap;
@@ -497,6 +478,16 @@ i:hover {
     }
     .events{
        justify-content: center;
+       margin-bottom: 40px;
+    }
+    .events2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .schedule{
+        margin-bottom: 40px;
+        margin-right: 0;
     }
     .img, .img2 {
         display: flex;
@@ -511,4 +502,15 @@ i:hover {
         flex-direction: column;
         flex-wrap: wrap;
     }
+.formular-lastname{
+    margin-top: 4%;
 }
+.button{
+    margin-bottom: 8%;
+}
+i{
+    margin: 15px;
+}
+}
+
+
