@@ -240,17 +240,23 @@ p{
     margin-bottom: 80px;
     font-size: 26px;
     justify-content: center;
+
+  
 }
 
 .events2 {
     display: flex;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: center;    
+
+    
+            
+        
 }
 
 .schedule {
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .schedule_content {
@@ -262,29 +268,24 @@ p{
     text-align: center;
     font-size: 14px;
     padding-top: 0;
-
+    width: 250px;
+    height: 210px;
 }
-
-
 
 .title {
     box-sizing: border-box;
     background-color: rgb(155, 16, 16);
     color: white;
     text-align: center;
-
-
-
 }
 
 
 .img{
-   margin-right: 100px;
+   margin-right: 150px;
 
 }
 .img2{
-    margin-left: 100px ;
-
+    margin-left: 150px ;
 }
 
 .underline{
@@ -297,36 +298,16 @@ p{
 .month{
     color:  rgb(39, 143, 240);
     font-weight: bold;
-    margin-top: 40px;
+    padding-top: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .day{
     font-weight: bold;
-    color:black;
-    margin-top: 20px;
-    
+    color:black;   
 }
-
-/*reponsive*/
-/*
-@media screen and (max-width: 500px){
-    .events{
-        width: 100%;
-        margin: 0;
-        box-shadow: none;
-        border-bottom: 2px solid#ccc;
-        border-radius: 0;
-        
-    }
-    .events2{
-        width: 100%;
-        margin: 0;
-        box-shadow: none;
-        border-bottom: 2px solid#ccc;
-        border-radius: 0;
-    }
-*/
-/*-------------------------------*/
 /*----FORMULAIRE----*/
 .formulaire {
     display: flex;
@@ -431,3 +412,105 @@ i {
 i:hover {
     background-color: lightgrey;
 }
+
+
+/*-------------------------------*/
+@media only screen and (max-width:700px){
+    .header, .about, .flex, .events, .events2, .formulaire, .body, .biere, .peopleimg{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+       
+    }
+    .header{
+        margin-bottom: 10%;
+    }
+    nav.flex{
+       flex-direction: column;
+       align-items: baseline;
+    }
+    nav a {
+        padding: 0%;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .transparent{
+        width: 100%;
+    }
+
+    .logo{
+        margin-bottom: 30%;
+    }
+    
+    .bestpeople{
+       left: -30px;
+       top:20px;
+        width: 40%;  
+    }
+
+  
+    .about-par1{
+        margin-left: auto;
+    }
+    
+
+    .formuevent{
+        display: flex;
+        flex-wrap: wrap;
+        
+        font-size: 200%;
+        
+
+    }
+   
+    .CEO, .COO, .CFO, .CTO {
+        justify-content: center;
+        
+        
+    }
+
+    .team-description {
+        align-items: center;
+        margin-top: 10px;
+
+
+    }
+    .events{
+       justify-content: center;
+       margin-bottom: 40px;
+    }
+    .events2{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .schedule{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .img, .img2 {
+        display: flex;
+        margin: auto;
+
+}
+    .formulaire{
+        margin-bottom: 7%;
+    }
+    .formular-Allname{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+.formular-lastname{
+    margin-top: 4%;
+}
+.button{
+    margin-bottom: 8%;
+}
+i{
+    margin: 15px;
+}
+}
+
+
