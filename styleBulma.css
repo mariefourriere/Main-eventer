@@ -58,7 +58,10 @@ h1 {
     display: inline-block;
 }
 
-h1:after {
+.about h1:after,
+.our-team h1:after,
+.our-events h1:after,
+.need-an-event h1:after{
     display: block;
     content: "";
     height: 4px;
