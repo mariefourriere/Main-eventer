@@ -4,265 +4,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Eventer</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-
-
-
-
-
+    <link rel="stylesheet" href="styleBulma.css">
+    <title>Introduction à Bulma</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="transparent">
-            <nav class="flex">
-                <a href="about">About</a>
-                <a href="Team">Team</a>
-                <a href="Events">Events</a>
-                <a href="Contact">Contact Us</a>
+    <header class="hero is-large">
+        <div class="hero-body pt-0 mr-6 transparent">
+
+
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand navtoggle">
+                        <div id="navbar-burger-id" class="navbar-burger" data-target="navMenu" aria-level="menu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="navbar-menu has-text-weight-bold hiddenmenu" id="navMenu">
+                        <div class="navbar-end">
+                            <a href="#" class="navbar-item is-primary has-text-white">About</a>
+                            <a href="#" class="navbar-item has-text-white">Team</a>
+                            <a href="#" class="navbar-item has-text-white">Events</a>
+                            <a href="#" class="navbar-item has-text-white">Contact</a>
+                        </div>
+                    </div>
+
+
+
+
             </nav>
-            <div class="header-img flex">
-                <img src="img/LOGO.png" alt="Logo">
-            </div>
-        </div>
     </header>
-
-
-    <main>
-
-        <section class="about">
-            <div class="flex">
-                <div>
-                    <img src="img/imageBiere28.png" alt="beer image" />
-                    <p class="bestpeople">
-                        Best people agency in Belgium
-
+    <!-- <div class="columns is-centered"> -->
+    <!-- <div class="column is-centered"> -->
+    <section class="about section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="img-beer column is-one-third">
+                    <img src="img/imageBiere28.png" alt="img beer">
+                    <p class="best-people notification">
+                        Best People agency in Belgium
                     </p>
                 </div>
-
-                <div class="about-par1">
-                    <h1>Who we are...</h1>
-                    <p class="par1">
-                        Look, just because I don't be givin'no man a foot message don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up that way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause i'll kill the Motherfucker, know what I'm sayin'?
+                <div class="column is-one-third">
+                    <h1 class="subtitle is-1 mb-6">
+                        Who we are...
+                    </h1>
+                    <p class="mt-6">
+                        Look, just because I don't be givin' no man a foot massage don't make it right gor
+                        Marsellus to
+                        throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks.
+                        Motherfucker di that shit to me, he better paralyze my ass, 'cause I'll kill the
+                        motherfucker,
+                        know what I'm sayin'?
                     </p>
-
                 </div>
             </div>
-
-
-
-            <p class="par2">
-                Do you see any teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see a a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-
-            </p>
-
-
-
-        </section>
-
-        <section class="ourTeam flex">
-
-
-            <h1>Our team...</h1>
-            <div class="ourTeamContent flex">
-                <article class="CEO flex">
-                    <img src="img/CEO.jpg" alt="CEO">
-                    <div class="team-description flex">
-                        <h2>CEO</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut labore et dolore</p>
-
-
-                    </div>
-                </article>
-                <article class="COO flex">
-                    <img src="img/COO.jpg" alt="COO">
-                    <div class="team-description flex">
-                        <h2>COO</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut labore et dolore</p>
-
-                    </div>
-                </article>
-                <article class="CFO flex">
-                    <img src="img/CFO.jpg" alt="CFO">
-                    <div class="team-description flex">
-                        <h2>CFO</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut labore et dolore</p>
-
-                    </div>
-                </article>
-                <article class="CTO flex">
-                    <img src="img/CTO.jpg" alt="CTO">
-                    <div class="team-description flex">
-                        <h2>CTO</h2>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt, sed do eiusmod tempor incididunt ut labore et dolore</p>
-
-                    </div>
-                </article>
-            </div>
-        </section>
-
-
-
-
-        <section>
-
-
-
-            <div class='events'>
-                <div class='img'>
-                    <img src="img/popImageClock.png" class="photo" alt="girl holing a clock on the left side">
-                </div>
-
-                <div class="underline">
-                    <h1>Our events</h1>
-                </div>
-                <div class='img2'>
-                    <img src="img/PopimageBeer.png" class="photo" alt="girl holing a galss of beer on the right side">
-                </div>
-
-
-            </div>
-
-            <div class='events2'>
-
-
-
-                <div class="schedule">
-                    <div class='title'>
-
-                        <h3>Salsa Course</h3>
-                    </div>
-
-                    <div class="schedule_content">
-                        <p>
-                            <time class="month">Nov</time>
-                        </p>
-                        <p>
-                            <time class="day">21ST</time>
-                        </p>
-
-                        <h4>Latino night</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="schedule">
-
-                    <div class='title'>
-
-                        <h3>Christmas</h3>
-                    </div>
-
-                    <div class='schedule_content'>
-                        <p>
-                            <time class="month">Dec</time>
-
-                        </p>
-                        <p>
-                            <time class="day">24TH</time>
-
-                        </p>
-
-
-                        <h4>Christmas for refugees</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="schedule">
-
-                    <div class='title'>
-
-                        <h3>Finance research</h3>
-
-                    </div>
-
-                    <div class='schedule_content'>
-
-
-                        <p>
-                            <time class="month">Jan</time>
-
-                        </p>
-                        <p>
-                            <time class="day">5TH</time>
-
-                        </p>
-
-                        <h4>Financers Drink</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        </p>
-
-
-                    </div>
-
+            <div class="columns is-centered">
+                <div class="column is-two-thirds">
+                    <p>
+                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                        with my
+                        name printed on it? Do you see a little Asian child with a blank expression on his face
+                        sitting
+                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                        that's
+                        what you see at a toy store. And you must think you're in a toy store, because you're
+                        here
+                        shopping for an infant named Jeb.
+                    </p>
                 </div>
             </div>
-        </section>
-
-
-
-
-        <section class="formulaire">
-
-            <h1>Need an event?</h1>
-
-            <form class="formular">
-                <div class="formular-Allname">
-                    <div class="formular-name">
-                        <label for="name">Name * </label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="formular-lastname">
-                        <label for="Lastname">Lastname * </label>
-                        <input type="text" id="Lastname" name="Lastname" required>
-                    </div>
-                </div>
-                <div class="formular-email">
-                    <label for="email">E-mail * </label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="formular-description">
-                    <label for="formulardescription"> Description</label>
-                    <textarea type="text" id="formulardescription" name="formulardescription" required> </textarea>
-                </div>
-
-                <button class="button is-danger-dark is-outlined" type="button"><a href="SEND">SEND</a></button>
-
-            </form>
-
-        </section>
-    </main>
-
-    <footer class="flex">
-        <h3>MAIN EVENTERS</h3>
-
-        <div>
-            <a href="#LinkedIn"><i class="fab fa-linkedin fa-3x" style="color: #2867B2;"></i></a>
-            <a href="#Instagram"><i class="fab fa-instagram-square fa-3x" style="color: brown;"></i></a>
-            <a href="#twitter"><i class="fab fa-twitter-square fa-3x" style="color: #1DA1F2;"></i></a>
-            <a href="#facebook"><i class="fab fa-facebook-square fa-3x" style="color: #4267B2;"></i></a>
         </div>
+    </section>
 
+    <section class="our-team section">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <h1 class="subtitle is-1 is-centered">Our Team...</h1>
+            </div>
+            <div class="columns is-centered">
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CEO.jpg" alt="CEO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CEO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/COO.jpg" alt="COO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>COO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="columns is-centered">
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CFO.jpg" alt="CFO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CFO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+                <article class="columns column is-one-third">
+                    <div class="column is-one-quarter">
+                        <img src="img/CTO.jpg" alt="CTO">
+                    </div>
+                    <div class="column is-three-quarters">
+                        <h2>CTO</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
+    <section class="our-events section">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <div class="column is-two-thirds columns">
+                    <div class="column is-two-fifths">
+                        <img src="img/popImageClock.png" alt="pin-up">
+                    </div>
+                    <div class="column is-two-fifths">
+                        <h1 class="subtitle is-1 mb-6">Our Events...</h1>
+                    </div>
+                    <div class="column is-two-fifths">
+                        <img src="img/PopimageBeer.png" alt="pin-up">
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-two-thirds columns">
+                    <div class="schedule box content column is-one-quarter p-0 mb-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Salsa Course</h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Nov</p>
+                        <p class="has-text-centered">21TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Latino night</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                    <div class="schedule box content column is-one-quarter p-0 mb-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Christmas</h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Dec</p>
+                        <p class="has-text-centered">24TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Christmas for refugees</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore
+                        </p>
+                    </div>
+                    <div class="schedule box content column is-one-quarter p-0 mx-6">
+                        <div class="hero is-small">
+                            <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Finance research
+                            </h2>
+                        </div>
+                        <p class="has-text-centered has-text-primary mt-1">Jan</p>
+                        <p class="has-text-centered">5TH</p>
+                        <h3 class="subtitle is-4 has-text-centered">Financers Drink</h3>
+                        <p class="p-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section need-an-event">
+        <div class="container">
+            <div class="columns is-centered mb-6">
+                <h1 class="subtitle is-1 has-text-centered">Need an Event ?</h1>
+            </div>
+            <div class="columns is-centered">
+                <form class="field column is-two-thirds">
+                    <div class="columns is-multiline">
+                        <div class="column is-half">
+                            <label for="name" class="label">Name *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="name" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <label for="lastname" class="label">Lastname *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="lastname" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-half">
+                            <label for="mail" class="label">E-mail *</label>
+                            <div class="control">
+                                <input class="input is-rounded" id="mail" type="email">
+                            </div>
+                        </div>
+                        <div class="column is-three-quarters">
+                            <label for="msg" class="label">Description</label>
+                            <div class="control">
+                                <textarea id="msg" class="msg textarea is-rounded"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="has-text-centered">
+                        <button type="submit" class="button is-rounded is-danger is-outlined">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- </div> -->
+    <!-- </div> -->
+    <footer class="footer">
+        <div class="content has-text-centered mb-6">
+            <h1 class="is-1">MAIN EVENTERS</h1>
+        </div>
+        <div class="columns is-centered my-6">
+            <div class="column is-mobile is-one-third columns is-centered">
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-linkedin-in fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-instagram fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-twitter fa-3x"></i>
+                    </span>
+                </div>
+                <div class="column has-text-centered is-one-quarter">
+                    <span class="icon is-large">
+                        <i class="fab fa-facebook fa-3x"></i></i>
+                    </span>
+                </div>
+            </div>
     </footer>
-   
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
 
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
 </body>
 
 </html>
