@@ -43,7 +43,7 @@ The final version is made with Bulma framework, you can find it [here](https://g
 
 Also for the purpose of the exercise, we have made a responsive version in full CSS as well, which you can see on the github repository ([HTML](responsive.html), [CSS](responsive.css)).
 
-For further inspection, you are more than welcome to check the code which is available[here](https://github.com/G-uillaume/Main-eventer). 
+For further inspection, you are more than welcome to check the code which is available [here](https://github.com/G-uillaume/Main-eventer). 
 
 
 
