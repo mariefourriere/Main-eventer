@@ -81,6 +81,9 @@ h1 {
     color: #fff;
     border-bottom: 3px solid rgb(189, 0, 0);
 }
+footer a {
+    color: rgb(54, 54, 54);
+}
 
 
 @media only screen and (max-width: 768px) {
