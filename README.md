@@ -30,7 +30,7 @@ You can find it [here:](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1
 
 
 
-# Setup
+# Web page setup
 
 The code will be on [a gitHub repo](https://github.com/G-uillaume/Main-eventer).
 
