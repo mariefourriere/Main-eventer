@@ -49,10 +49,10 @@ The final version is made with Bulma framework, you can find it [here](https://g
 
 
 # Web page overview
-                                                                  (Computer)
+                                                              (Computer)
                                 
 ![image](https://github.com/G-uillaume/Main-eventer/blob/main/events.png)
 
-                                                                   (Mobile)
+                                                               (Mobile)
                                 
 ![image](https://github.com/G-uillaume/Main-eventer/blob/main/screenshot-mobile.png)
