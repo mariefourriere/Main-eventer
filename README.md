@@ -23,7 +23,7 @@ You can find it [here:](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1
 
 # Wich technologies have we used?
 
-* Framework ***BULMA
+* Framework ***BULMA***
 * CSS
 * HTML
 * GitHub
