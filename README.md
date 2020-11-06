@@ -2,6 +2,7 @@
 > This project was published on Tuesday the 5th of November 2020
 >
 **Project description:**
+
 Our client is asking for a web page for their event agency providing us with a draft which display the desired layout.
 You can find it [here:](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1-25/master/The%20Field/3.HTML%2BCSS/4.main_eventer/wireframe.jpg?token=APNDZOS6X72YST34SRAOLBK7VJFDO) of the client request.
 
