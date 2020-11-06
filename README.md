@@ -52,3 +52,4 @@ The final version is made with Bulma framework, you can find it [here](https://g
 
 
 # Web page overview
+![image]()
