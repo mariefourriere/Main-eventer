@@ -54,10 +54,10 @@ For further inspections, you are more than welcome to check the code which is av
 
 
 # Web page overview
-                                                              (Computer)
+                                                   (Computer)
                                 
 ![image](https://github.com/G-uillaume/Main-eventer/blob/main/events.png)
 
-                                                              (Mobile)
+                                                    (Mobile)
                                 
 ![image](https://github.com/G-uillaume/Main-eventer/blob/main/screenshot-mobile.png)
