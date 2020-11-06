@@ -81,12 +81,29 @@ h1 {
     color: #fff;
     border-bottom: 3px solid rgb(189, 0, 0);
 }
+
+.month {
+    color: rgb(39, 143, 240);
+}
+
 footer a {
     color: rgb(54, 54, 54);
 }
 
 
 @media only screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .navbar-burger {
+        color: #fff;
+    }
+
     .transparent {
         background-color: rgba(0, 0, 0, 0.8);
         background-size: 10%;
@@ -96,6 +113,9 @@ footer a {
         background: none;
         color: #fff;
         border-bottom: none;
+    }
+    .img-beer {
+        margin-top: 80px;
     }
     .best-people {
         top: 80%;
@@ -107,3 +127,4 @@ footer a {
         margin-top: 20px;
     }
 }
+

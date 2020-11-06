@@ -29,10 +29,10 @@
 
                     <div class="navbar-menu has-text-weight-bold hiddenmenu" id="navMenu">
                         <div class="navbar-end">
-                            <a href="#" class="navbar-item is-primary has-text-white">About</a>
-                            <a href="#" class="navbar-item has-text-white">Team</a>
-                            <a href="#" class="navbar-item has-text-white">Events</a>
-                            <a href="#" class="navbar-item has-text-white">Contact</a>
+                            <a href="#about" class="navbar-item is-primary has-text-white">About</a>
+                            <a href="#our-team" class="navbar-item has-text-white">Team</a>
+                            <a href="#our-events" class="navbar-item has-text-white">Events</a>
+                            <a href="#need-an-event" class="navbar-item has-text-white">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
     </header>
 
     <main>
-        <section class="about section">
+        <section id="about" class="about section">
             <div class="container">
                 <div class="columns is-centered">
                     <div class="img-beer column is-one-third">
@@ -75,7 +75,7 @@
                             that's
                             what you see at a toy store. And you must think you're in a toy store, because you're
                             here
-                            shopping for an infant named Jeb.
+                            shopping for an infant named <span id="our-team">Jeb.</span>
                         </p>
                     </article>
                 </div>
@@ -146,7 +146,7 @@
             </div>
         </section>
 
-        <section class="our-events section">
+        <section id="our-events" class="our-events section">
             <div class="container">
                 <div class="columns is-centered mb-6">
                     <div class="column is-two-thirds columns">
@@ -168,7 +168,7 @@
                                 <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Salsa Course
                                 </h2>
                             </div>
-                            <p class="has-text-centered has-text-primary mt-1">Nov</p>
+                            <p class="month has-text-centered mt-1">Nov</p>
                             <p class="has-text-centered">21TH</p>
                             <h3 class="subtitle is-4 has-text-centered">Latino night</h3>
                             <p class="p-3">
@@ -181,7 +181,7 @@
                             <div class="hero is-small">
                                 <h2 class="subtitle is-2 is-size-5 pt-2 has-text-white has-text-centered">Christmas</h2>
                             </div>
-                            <p class="has-text-centered has-text-primary mt-1">Dec</p>
+                            <p class="month has-text-centered mt-1">Dec</p>
                             <p class="has-text-centered">24TH</p>
                             <h3 class="subtitle is-4 has-text-centered">Christmas for refugees</h3>
                             <p class="p-3">
@@ -196,12 +196,12 @@
                                     research
                                 </h2>
                             </div>
-                            <p class="has-text-centered has-text-primary mt-1">Jan</p>
+                            <p class="month has-text-centered mt-1">Jan</p>
                             <p class="has-text-centered">5TH</p>
                             <h3 class="subtitle is-4 has-text-centered">Financers Drink</h3>
                             <p class="p-3">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
+                                incididunt ut labore et <span id="need-an-event">dolore</span>
                             </p>
                         </article>
                     </div>
@@ -220,25 +220,25 @@
                             <div class="column is-half">
                                 <label for="name" class="label">Name *</label>
                                 <div class="control">
-                                    <input class="input is-rounded" id="name" type="text">
+                                    <input class="input is-rounded" id="name" type="text" placeholder="ex : Jean">
                                 </div>
                             </div>
                             <div class="column is-half">
                                 <label for="lastname" class="label">Lastname *</label>
                                 <div class="control">
-                                    <input class="input is-rounded" id="lastname" type="text">
+                                    <input class="input is-rounded" id="lastname" type="text" placeholder="ex : Cérien">
                                 </div>
                             </div>
                             <div class="column is-half">
                                 <label for="mail" class="label">E-mail *</label>
                                 <div class="control">
-                                    <input class="input is-rounded" id="mail" type="email">
+                                    <input class="input is-rounded" id="mail" type="email" placeholder="example@mail.com">
                                 </div>
                             </div>
                             <div class="column is-three-quarters">
                                 <label for="msg" class="label">Description</label>
                                 <div class="control">
-                                    <textarea id="msg" class="msg textarea is-rounded"></textarea>
+                                    <textarea id="msg" class="msg textarea is-rounded" draggable="false"></textarea>
                                 </div>
                             </div>
                         </div>
