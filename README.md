@@ -13,10 +13,10 @@ You can find it [here:](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1
 
 # Team
 
-* Marie      *Project manager J2*
+* Marie      (*Project manager J2*)
 * Richard
 * Maxime
-* Guillaume *Project manager J1*
+* Guillaume (*Project manager J1*)
 
 
 
