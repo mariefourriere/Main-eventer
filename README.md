@@ -39,7 +39,7 @@ Finally, we have made sure to have a mobile friendly website by making it respon
 # Web page setup
 
 
-The final version is made with Bulma framework, you can find it [here!](https://g-uillaume.github.io/Main-eventer). 
+The final version is made with Bulma framework, you can find it [here!](https://g-uillaume.github.io/Main-eventer)
 
 Also for the purpose of the exercise, we have made a responsive version in full CSS as well, which you can see on the github repository ([HTML](responsive.html), [CSS](responsive.css)).
 
