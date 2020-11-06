@@ -43,6 +43,7 @@ header {
 
 .msg {
     border-radius: 25px;
+    resize: none;
 }
 
 .control input,
