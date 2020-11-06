@@ -18,15 +18,22 @@ You can find it [here:](https://raw.githubusercontent.com/becodeorg/bxl-hopper-1
 * Maxime
 * Guillaume (*Project manager J1*)
 
+**Main task:**
+
+We divided the this project in sections, each one of us picked one by affinity.
+To track our progress we have used Trello which helped us to define the different tasks and their deadlines.
+Finally, we made sure to have mobile friendly website by making it responsive.
 
 
 
 # Wich technologies have we used?
 
+* Trello
 * Framework (*BULMA*)
 * CSS
 * HTML
 * GitHub
+ 
 
 
 
