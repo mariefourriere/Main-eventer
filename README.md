@@ -21,7 +21,7 @@ We divided the this project in sections, each one of us has picked one by affini
 
 To track our progress we have used [Trello](https://trello.com/b/uDCC5Tby/main-eventer) which helped us to define the different tasks to be done and their completion.
 
-Finally, we have made sure to have mobile friendly website by making it responsive.
+Finally, we have made sure to have a mobile friendly website by making it responsive.
 
 
 
