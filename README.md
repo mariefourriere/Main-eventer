@@ -6,7 +6,7 @@
 Our client is asking for a web page for their event agency providing us with a draft which displays the desired layout.
 
 
-The final version is made with Bulma framework, you can find it [here!](https://g-uillaume.github.io/Main-eventer)
+The final version is made with Bulma framework, you can find it [here!](https://mariefourriere.github.io/frontend-project-main_eventer/)
 
 # Team
 
